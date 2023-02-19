@@ -13,6 +13,6 @@ $mailheader = "Form:".$name."<".$email.">\r\n";
 
 $recipient = "mmhp99bd@gmail.com";
 
-mail($recipient, $number, $dropdown, $mailheader) or die ("Error!");
+mail($recipient, $number, $dropdown, $email, $name) or die ("Error!");
 
 ?>
